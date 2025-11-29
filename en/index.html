@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="User Manual Totem Digital Romania - Standard Operating Procedures">
+    <title>User Manual - Totem Digital Romania</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../print.css" media="print">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header no-print">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Totem Digital Romania</h1>
+                    <p class="tagline">User Manual v2.2</p>
+                </div>
+                <div class="header-actions">
+                    <a href="../index.html" class="btn btn-secondary" style="margin-right: 0.5rem;" title="Versiunea română">
+                        <i class="fas fa-language"></i>
+                        RO
+                    </a>
+                    <button id="downloadBtn" class="btn btn-primary">
+                        <i class="fas fa-download"></i>
+                        Download PDF
+                    </button>
+                    <button id="printBtn" class="btn btn-secondary">
+                        <i class="fas fa-print"></i>
+                        Print
+                    </button>
+                    <button id="menuToggle" class="menu-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Sidebar -->
+    <nav id="sidebar" class="sidebar no-print">
+        <div class="sidebar-content">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search in manual...">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#preface" class="nav-link">Preface</a></li>
+                <li><a href="#catalog" class="nav-link">Catalog</a></li>
+                <li><a href="#safety" class="nav-link">Safety Guide</a></li>
+                <li><a href="#components" class="nav-link">Components & Accessories</a></li>
+                <li><a href="#environment" class="nav-link">Environment</a></li>
+                <li><a href="#installation" class="nav-link">Software Installation</a></li>
+                <li><a href="#startup" class="nav-link">First Startup</a></li>
+                <li><a href="#connections" class="nav-link">Connections</a></li>
+                <li><a href="#maintenance" class="nav-link">Maintenance</a></li>
+                <li><a href="#troubleshooting" class="nav-link">Troubleshooting</a></li>
+                <li><a href="#outdoor" class="nav-link">Outdoor Equipment</a></li>
+                <li><a href="#warranty" class="nav-link">Warranty Service</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Cover Page -->
+            <section class="cover-page page-break">
+                <div class="cover-content">
+                    <div class="cover-header">
+                        <div class="cover-logo-main">
+                            <i class="fas fa-book-open" style="font-size: 4rem; margin-bottom: 1rem;"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="cover-main">
+                        <h1 class="cover-title">USER MANUAL</h1>
+                        <div class="cover-divider"></div>
+                        <h2 class="cover-subtitle">DIGITAL TOTEM</h2>
+                        <h3 class="cover-version">Version 2.2 - 2025</h3>
+                    </div>
+                    
+                    <div class="cover-description-box">
+                        <p class="cover-description">
+                            <i class="fas fa-check-circle"></i> Standard operating procedures<br>
+                            <i class="fas fa-check-circle"></i> Step-by-step installation instructions<br>
+                            <i class="fas fa-check-circle"></i> Complete user and maintenance guide
+                        </p>
+                    </div>
+                    
+                    <div class="cover-contact">
+                        <h3><i class="fas fa-building"></i> TOTEM DIGITAL ROMANIA</h3>
+                        <div class="cover-contact-grid">
+                            <div><i class="fas fa-phone"></i> +40 371 710 077</div>
+                            <div><i class="fas fa-envelope"></i> sales@totemdigital.ro</div>
+                            <div><i class="fas fa-globe"></i> www.totemdigital.ro</div>
+                            <div><i class="fas fa-ticket-alt"></i> https://support.totemdigital.ro</div>
+                        </div>
+                    </div>
+                    
+                    <div class="cover-footer">
+                        <p><i class="fas fa-copyright"></i> <span id="copyrightYear">2000-2025</span> Totem Digital Romania. All rights reserved.</p>
+                        <p>Document is property of Office Conect SRL. Copying or reproducing this document is prohibited.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Table of Contents -->
+            <section class="toc page-break" id="contents">
+                <h2 class="section-title">TABLE OF CONTENTS</h2>
+                <div class="toc-list">
+                    <div class="toc-item"><a href="#preface">Preface</a><span class="dots"></span><span class="page">4</span></div>
+                    <div class="toc-item"><a href="#catalog">Catalog</a><span class="dots"></span><span class="page">4</span></div>
+                    <div class="toc-item"><a href="#safety">Safety Guide</a><span class="dots"></span><span class="page">4</span></div>
+                    <div class="toc-item"><a href="#components">Components & Accessories</a><span class="dots"></span><span class="page">7</span></div>
+                    <div class="toc-item"><a href="#environment">Environment</a><span class="dots"></span><span class="page">9</span></div>
+                    <div class="toc-item"><a href="#installation">Software Installation</a><span class="dots"></span><span class="page">10</span></div>
+                    <div class="toc-item"><a href="#startup">First Startup</a><span class="dots"></span><span class="page">11</span></div>
+                    <div class="toc-item"><a href="#connections">Connections</a><span class="dots"></span><span class="page">12</span></div>
+                    <div class="toc-item"><a href="#maintenance">Maintenance</a><span class="dots"></span><span class="page">20</span></div>
+                    <div class="toc-item"><a href="#troubleshooting">Troubleshooting</a><span class="dots"></span><span class="page">23</span></div>
+                    <div class="toc-item"><a href="#outdoor">Outdoor Equipment Operations</a><span class="dots"></span><span class="page">27</span></div>
+                    <div class="toc-item"><a href="#warranty">Warranty Service</a><span class="dots"></span><span class="page">28</span></div>
+                </div>
+            </section>
+
+            <!-- Preface -->
+            <section id="preface" class="content-section">
+                <h2 class="section-title">PREFACE</h2>
+                <div class="highlight-box success">
+                    <h3>Congratulations!</h3>
+                    <p>Thank you for purchasing and using our advertising equipment. By purchasing from us, you have decided to choose a high-quality product.</p>
+                </div>
+                
+                <p>When unpacking, check that all components and accessories are present.</p>
+                
+                <div class="alert alert-warning">
+                    <strong>Important:</strong> Before assembling and starting the digital totem, carefully read this manual and keep it for future reference.
+                </div>
+                
+                <p>Use the product only as described in this manual.</p>
+                <p>In case of transfer of the product to a third party, also hand over all documents, including this manual.</p>
+            </section>
+
+            <!-- Catalog -->
+            <section id="catalog" class="content-section">
+                <h2 class="section-title">CATALOG</h2>
+                <ul class="catalog-list">
+                    <li>Safety Guide</li>
+                    <li>Components and Accessories</li>
+                    <li>Environment</li>
+                </ul>
+            </section>
+
+            <!-- Safety Guide -->
+            <section id="safety" class="content-section page-break">
+                <h2 class="section-title">SAFETY GUIDE</h2>
+                
+                <div class="alert alert-danger">
+                    <h3><i class="fas fa-exclamation-triangle"></i> IMPORTANT WARNINGS</h3>
+                    <ul>
+                        <li>Inside the digital totems there is high voltage. Please do not open the cover to avoid electric shocks.</li>
+                        <li>Maintenance of digital totems must be performed by qualified technical personnel.</li>
+                        <li>Improper operation can lead to electric shocks or fires.</li>
+                    </ul>
+                </div>
+
+                <h3>General Safety Instructions</h3>
+                <div class="safety-instructions">
+                    <div class="instruction-item">
+                        <span class="icon"><i class="fas fa-check"></i></span>
+                        <p>Before using this unit, please read and understand the operating instructions first.</p>
+                    </div>
+                    <div class="instruction-item">
+                        <span class="icon"><i class="fas fa-check"></i></span>
+                        <p>Store this instruction manual properly for future needs.</p>
+                    </div>
+                    <div class="instruction-item">
+                        <span class="icon"><i class="fas fa-check"></i></span>
+                        <p>Pay special attention to safety indications and warnings and strictly comply with warning instructions in the manual.</p>
+                    </div>
+                    <div class="instruction-item">
+                        <span class="icon"><i class="fas fa-check"></i></span>
+                        <p>Do not use accessories that the manufacturer does not recommend; improper use may lead to unexpected malfunction of the totem.</p>
+                    </div>
+                    <div class="instruction-item">
+                        <span class="icon"><i class="fas fa-check"></i></span>
+                        <p>Use the totem with the supplied power cable. Check the power requirements if they are suitable for local conditions.</p>
+                    </div>
+                    <div class="instruction-item">
+                        <span class="icon"><i class="fas fa-times"></i></span>
+                        <p>Do not use any object that presses or twists the power cable. A damaged cable can cause electric shock or fire.</p>
+                    </div>
+                    <div class="instruction-item">
+                        <span class="icon"><i class="fas fa-times"></i></span>
+                        <p>Do not attempt to repair the totem yourself. Make sure you use qualified personnel for equipment maintenance.</p>
+                    </div>
+                    <div class="instruction-item">
+                        <span class="icon"><i class="fas fa-times"></i></span>
+                        <p>Do not touch components that are not mentioned in the user manual.</p>
+                    </div>
+                </div>
+
+                <h3>Cleaning and Maintenance</h3>
+                <div class="alert alert-info">
+                    <p><strong>Before cleaning the device:</strong></p>
+                    <ul>
+                        <li>Disconnect the power supply</li>
+                        <li>Use a damp cloth to clean the device</li>
+                        <li>Do not use liquid or aerosol cleaning products</li>
+                    </ul>
+                </div>
+
+                <p>When the unit will not be used for an extended period, please disconnect the power supply.</p>
+                <p>Make sure there is ventilation in the room and the ventilation slot of the device is not blocked.</p>
+            </section>
+
+            <!-- Components and Accessories -->
+            <section id="components" class="content-section page-break">
+                <h2 class="section-title">COMPONENTS & ACCESSORIES</h2>
+                
+                <p>Check the package contents when unpacking. It must contain the following components:</p>
+                
+                <div class="components-grid">
+                    <div class="component-card">
+                        <div class="component-icon"><i class="fas fa-desktop"></i></div>
+                        <h4>Main Unit</h4>
+                        <p>Fully assembled digital totem</p>
+                    </div>
+                    <div class="component-card">
+                        <div class="component-icon"><i class="fas fa-plug"></i></div>
+                        <h4>Power Cable</h4>
+                        <p>Standard electrical cable</p>
+                    </div>
+                    <div class="component-card">
+                        <div class="component-icon"><i class="fas fa-key"></i></div>
+                        <h4>Locking Keys</h4>
+                        <p>For physical security</p>
+                    </div>
+                    <div class="component-card">
+                        <div class="component-icon"><i class="fas fa-book"></i></div>
+                        <h4>User Manual</h4>
+                        <p>Complete documentation</p>
+                    </div>
+                    <div class="component-card">
+                        <div class="component-icon"><i class="fas fa-tools"></i></div>
+                        <h4>Mounting Kit</h4>
+                        <p>Screws and accessories</p>
+                    </div>
+                    <div class="component-card">
+                        <div class="component-icon"><i class="fas fa-certificate"></i></div>
+                        <h4>Warranty Certificate</h4>
+                        <p>Official documents</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Environment -->
+            <section id="environment" class="content-section">
+                <h2 class="section-title">ENVIRONMENT</h2>
+                
+                <h3>Operating Conditions</h3>
+                <div class="table-responsive">
+                    <table class="specs-table">
+                        <thead>
+                            <tr>
+                                <th>Parameter</th>
+                                <th>Indoor</th>
+                                <th>Outdoor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Operating Temperature</td>
+                                <td>0°C - 40°C</td>
+                                <td>-20°C - 50°C</td>
+                            </tr>
+                            <tr>
+                                <td>Humidity</td>
+                                <td>20% - 80%</td>
+                                <td>10% - 90%</td>
+                            </tr>
+                            <tr>
+                                <td>Protection</td>
+                                <td>IP20</td>
+                                <td>IP65</td>
+                            </tr>
+                            <tr>
+                                <td>Ventilation</td>
+                                <td>Natural</td>
+                                <td>Forced + A/C</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="alert alert-warning">
+                    <strong>Attention to installation environment:</strong>
+                    <ul>
+                        <li>Ensure adequate ventilation</li>
+                        <li>Avoid direct exposure to sunlight (for indoor models)</li>
+                        <li>Do not install in places with excessive humidity</li>
+                        <li>Keep distance from heat sources</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Software Installation -->
+            <section id="installation" class="content-section page-break">
+                <h2 class="section-title">SOFTWARE INSTALLATION</h2>
+                
+                <h3>Operating System</h3>
+                <p>The digital totem comes with pre-installed and configured operating system.</p>
+
+                <h3>Included Systems</h3>
+                <div class="software-list">
+                    <div class="software-item">
+                        <div class="software-icon"><i class="fas fa-laptop"></i></div>
+                        <div class="software-details">
+                            <h4>Operating System</h4>
+                            <p>Pre-installed and activated Windows</p>
+                        </div>
+                    </div>
+                    <div class="software-item">
+                        <div class="software-icon"><i class="fas fa-lock"></i></div>
+                        <div class="software-details">
+                            <h4>SITEKIOSK ONLINE</h4>
+                            <p>Management and software locking system with online control</p>
+                        </div>
+                    </div>
+                    <div class="software-item">
+                        <div class="software-icon"><i class="fas fa-map-marked-alt"></i></div>
+                        <div class="software-details">
+                            <h4>DIGIMAP by Totemdigital</h4>
+                            <p>Customized interactive map</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- First Startup -->
+            <section id="startup" class="content-section">
+                <h2 class="section-title">FIRST STARTUP</h2>
+                
+                <div class="alert alert-danger">
+                    <h4><i class="fas fa-exclamation-triangle"></i> WARNING</h4>
+                    <p>Before first startup, check:</p>
+                    <ul>
+                        <li>Power cable is correctly connected</li>
+                        <li>Electrical voltage matches specifications (220V)</li>
+                        <li>All cables are properly secured</li>
+                        <li>No foreign objects inside the totem</li>
+                    </ul>
+                </div>
+
+                <h3>Initial Startup Steps</h3>
+                <ol class="steps-list">
+                    <li>
+                        <strong>Visual Inspection</strong>
+                        <p>Inspect the totem for any damage from transport</p>
+                    </li>
+                    <li>
+                        <strong>Electrical Connections</strong>
+                        <p>Connect the power cable to outlet</p>
+                    </li>
+                    <li>
+                        <strong>Power On</strong>
+                        <p>Press the power button on the unit</p>
+                    </li>
+                    <li>
+                        <strong>System Loading</strong>
+                        <p>Wait 2-3 minutes for complete system loading</p>
+                    </li>
+                    <li>
+                        <strong>Functionality Check</strong>
+                        <p>Test the touch screen and basic functions</p>
+                    </li>
+                </ol>
+            </section>
+
+            <!-- Connections -->
+            <section id="connections" class="content-section page-break">
+                <h2 class="section-title">CONNECTIONS</h2>
+                
+                <h3>Wired Network Connection (Ethernet)</h3>
+                <p>For a stable and fast connection, we recommend using an Ethernet cable connection.</p>
+                
+                <div class="steps-box">
+                    <h4>Ethernet Connection Steps:</h4>
+                    <ol>
+                        <li>Locate the Ethernet port on the back of the totem</li>
+                        <li>Connect the UTP/Ethernet cable to the port</li>
+                        <li>Connect the other end to the router/network switch</li>
+                        <li>The system will automatically detect the connection</li>
+                        <li>Check connection status in network settings</li>
+                    </ol>
+                </div>
+
+                <div class="alert alert-warning">
+                    <h4><i class="fas fa-exclamation-triangle"></i> WARNING</h4>
+                    <p>Do not disconnect the network cable while the totem is operating and processing important data.</p>
+                </div>
+
+                <h3>Wireless Network Connection (Wi-Fi)</h3>
+                <p>For installations where Ethernet cable is not available, you can use Wi-Fi connection.</p>
+                
+                <div class="steps-box">
+                    <h4>Wi-Fi Connection Steps:</h4>
+                    <ol>
+                        <li>Access network settings from the operating system</li>
+                        <li>Select "Wi-Fi" or "Wireless Networks"</li>
+                        <li>Search for the desired network from the available list</li>
+                        <li>Enter the access password</li>
+                        <li>Wait for connection confirmation</li>
+                        <li>Test the connection by accessing the internet</li>
+                    </ol>
+                </div>
+
+                <h3>Network Setup Tips</h3>
+                <div class="tips-grid">
+                    <div class="tip-card">
+                        <h4><i class="fas fa-shield-alt"></i> Security</h4>
+                        <ul>
+                            <li>Use networks with strong password</li>
+                            <li>Avoid unsecured public networks</li>
+                            <li>Update passwords regularly</li>
+                        </ul>
+                    </div>
+                    <div class="tip-card">
+                        <h4><i class="fas fa-bolt"></i> Performance</h4>
+                        <ul>
+                            <li>Prefer wired connection</li>
+                            <li>Check Wi-Fi signal strength</li>
+                            <li>Ensure sufficient bandwidth</li>
+                        </ul>
+                    </div>
+                    <div class="tip-card">
+                        <h4><i class="fas fa-cog"></i> Configuration</h4>
+                        <ul>
+                            <li>Note the totem's IP address</li>
+                            <li>Configure static IP if necessary</li>
+                            <li>Test connectivity regularly</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3>Legal Notice</h3>
+                <div class="legal-note">
+                    <h4>IMPORTANT NOTE REGARDING NETWORK SERVICES</h4>
+                    <p>Network services are provided by third parties. Totem Digital Romania has no control over the content or availability of these services. Use of network services is the responsibility of the end user.</p>
+                </div>
+            </section>
+
+            <!-- Maintenance -->
+            <section id="maintenance" class="content-section page-break">
+                <h2 class="section-title">MAINTENANCE</h2>
+                
+                <h3>Locking Systems</h3>
+                
+                <h4>1. Physical Lock</h4>
+                <p>The totem is locked with the keys received in the package.</p>
+                <ul>
+                    <li>Use the key to open/close the access panel</li>
+                    <li>Keep the keys in a safe place</li>
+                    <li>Do not leave the totem open unattended</li>
+                </ul>
+
+                <h4>2. Software Lock</h4>
+                <p>Software locking is done using SITEKIOSK ONLINE program.</p>
+                <ul>
+                    <li>Access the SITEKIOSK ONLINE administration panel</li>
+                    <li>Configure desired restrictions</li>
+                    <li>Save and apply settings</li>
+                </ul>
+
+                <h3>Cleaning the Totem</h3>
+                
+                <div class="alert alert-danger">
+                    <h4><i class="fas fa-exclamation-triangle"></i> WARNING</h4>
+                    <p>Before cleaning, always disconnect the power supply!</p>
+                </div>
+
+                <h4>Screen and Frame</h4>
+                <div class="cleaning-instructions">
+                    <div class="cleaning-item">
+                        <span class="step-number">1</span>
+                        <div class="step-content">
+                            <h5>Preparation</h5>
+                            <p>Turn off and disconnect the totem from power. Wait for it to cool completely.</p>
+                        </div>
+                    </div>
+                    <div class="cleaning-item">
+                        <span class="step-number">2</span>
+                        <div class="step-content">
+                            <h5>Screen Cleaning</h5>
+                            <p>Use a soft microfiber cloth, slightly dampened with water. Do not spray directly on the screen.</p>
+                        </div>
+                    </div>
+                    <div class="cleaning-item">
+                        <span class="step-number">3</span>
+                        <div class="step-content">
+                            <h5>Frame</h5>
+                            <p>Wipe the frame with a damp cloth. For persistent stains, use diluted neutral detergent.</p>
+                        </div>
+                    </div>
+                    <div class="cleaning-item">
+                        <span class="step-number">4</span>
+                        <div class="step-content">
+                            <h5>Drying</h5>
+                            <p>Wipe with a dry cloth and let it dry completely before restarting.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="alert alert-warning">
+                    <strong>Do not use:</strong>
+                    <ul>
+                        <li>Abrasive cleaning products</li>
+                        <li>Aerosols or solvents</li>
+                        <li>Rough materials that can scratch</li>
+                        <li>Excess water that can penetrate the device</li>
+                    </ul>
+                </div>
+
+                <h4>Housing and Support</h4>
+                <ul>
+                    <li>Clean with a damp cloth</li>
+                    <li>Periodically check mounting screws</li>
+                    <li>Remove dust from ventilation areas</li>
+                </ul>
+
+                <h4>Power Cable</h4>
+                <ul>
+                    <li>Visually inspect for damage</li>
+                    <li>Do not bend or pull excessively</li>
+                    <li>Replace immediately if damaged</li>
+                </ul>
+
+                <h3>Avoiding "Image Burn" or "Burn-in" Effect</h3>
+                <p>To prevent screen damage from prolonged display of the same images:</p>
+                <ul>
+                    <li>Use screen saver after periods of inactivity</li>
+                    <li>Vary the displayed content</li>
+                    <li>Avoid displaying static images for long periods</li>
+                    <li>Use screen saving settings from SITEKIOSK ONLINE</li>
+                </ul>
+            </section>
+
+            <!-- Troubleshooting -->
+            <section id="troubleshooting" class="content-section page-break">
+                <h2 class="section-title">TROUBLESHOOTING</h2>
+                
+                <h3>General</h3>
+                
+                <div class="troubleshooting-item">
+                    <h4><i class="fas fa-times-circle"></i> Totem cannot be turned on</h4>
+                    <div class="solution">
+                        <strong>Solutions:</strong>
+                        <ul>
+                            <li>Check if it is connected to outlet and outlet is working</li>
+                            <li>Check the switch on the power cable</li>
+                            <li>Make sure the power button is fully pressed</li>
+                            <li>Contact technical service if problem persists</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="troubleshooting-item">
+                    <h4><i class="fas fa-times-circle"></i> No image is displayed and no sound is produced</h4>
+                    <div class="solution">
+                        <strong>Solutions:</strong>
+                        <ul>
+                            <li>Check internal video connections</li>
+                            <li>Make sure the screen is turned on</li>
+                            <li>Check video input settings</li>
+                            <li>Restart the system</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="troubleshooting-item">
+                    <h4><i class="fas fa-exclamation-circle"></i> Images appear slowly when totem starts</h4>
+                    <div class="solution">
+                        <strong>Explanation:</strong>
+                        <p>This is normal behavior at startup. The system needs time to load all components.</p>
+                    </div>
+                </div>
+
+                <div class="troubleshooting-item">
+                    <h4><i class="fas fa-times-circle"></i> Cannot connect external devices</h4>
+                    <div class="solution">
+                        <strong>Solutions:</strong>
+                        <ul>
+                            <li>Check if device is compatible</li>
+                            <li>Try another USB port</li>
+                            <li>Restart totem with device connected</li>
+                            <li>Check drivers in operating system</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="troubleshooting-item">
+                    <h4><i class="fas fa-times-circle"></i> Totem turns off suddenly</h4>
+                    <div class="solution">
+                        <strong>Possible causes:</strong>
+                        <ul>
+                            <li>Overheating - check fans</li>
+                            <li>Power problems - check connections</li>
+                            <li>Power saving settings - check configuration</li>
+                            <li>Hardware problems - contact service</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3>Audio</h3>
+                
+                <div class="troubleshooting-item">
+                    <h4><i class="fas fa-volume-mute"></i> No sound is produced while running</h4>
+                    <div class="solution">
+                        <strong>Solutions:</strong>
+                        <ul>
+                            <li>Check system volume</li>
+                            <li>Make sure sound is not muted</li>
+                            <li>Check speaker connections</li>
+                            <li>Test with another audio file</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="troubleshooting-item">
+                    <h4><i class="fas fa-volume-up"></i> No output from one of the speakers</h4>
+                    <div class="solution">
+                        <strong>Solutions:</strong>
+                        <ul>
+                            <li>Check audio balance (left/right)</li>
+                            <li>Test with stereo content</li>
+                            <li>Check speaker connections</li>
+                            <li>Contact service for hardware check</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3>Video</h3>
+                
+                <div class="troubleshooting-item">
+                    <h4><i class="fas fa-tv"></i> Horizontal or vertical bars appear or images fade</h4>
+                    <div class="solution">
+                        <strong>Solutions:</strong>
+                        <ul>
+                            <li>Check video cables</li>
+                            <li>Adjust resolution and refresh rate</li>
+                            <li>Remove electromagnetic interference sources</li>
+                            <li>Contact service if problem persists</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="troubleshooting-item">
+                    <h4><i class="fas fa-ghost"></i> Ghosting images appear when product is turned off</h4>
+                    <div class="solution">
+                        <strong>Explanation:</strong>
+                        <p>It may be a normal temporary effect. If it persists, it could indicate burn-in. Use varied images and activate screen saver.</p>
+                    </div>
+                </div>
+
+                <div class="troubleshooting-item">
+                    <h4><i class="fas fa-moon"></i> Power is on but screen appears extremely dark</h4>
+                    <div class="solution">
+                        <strong>Solutions:</strong>
+                        <ul>
+                            <li>Adjust screen brightness</li>
+                            <li>Check power saving settings</li>
+                            <li>Check if backlight is working</li>
+                            <li>Contact service for diagnosis</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="troubleshooting-item">
+                    <h4><i class="fas fa-exclamation-circle"></i> "No Signal" appears on screen</h4>
+                    <div class="solution">
+                        <strong>Solutions:</strong>
+                        <ul>
+                            <li>Check connection between PC and screen</li>
+                            <li>Make sure PC is turned on</li>
+                            <li>Check selected input source</li>
+                            <li>Reconnect video cables</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Parameters -->
+            <section id="parameters" class="content-section">
+                <h2 class="section-title">GENERAL PARAMETERS</h2>
+                
+                <h3>Indoor Equipment</h3>
+                <div class="table-responsive">
+                    <table class="specs-table">
+                        <thead>
+                            <tr>
+                                <th>Specification</th>
+                                <th>Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Operating Temperature</td>
+                                <td>0°C - 40°C</td>
+                            </tr>
+                            <tr>
+                                <td>Relative Humidity</td>
+                                <td>20% - 80% (non-condensing)</td>
+                            </tr>
+                            <tr>
+                                <td>Protection Rating</td>
+                                <td>IP20</td>
+                            </tr>
+                            <tr>
+                                <td>Ventilation</td>
+                                <td>Natural / Forced</td>
+                            </tr>
+                            <tr>
+                                <td>Power Supply</td>
+                                <td>220V AC, 50Hz</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h3>Outdoor Equipment</h3>
+                <div class="table-responsive">
+                    <table class="specs-table">
+                        <thead>
+                            <tr>
+                                <th>Specification</th>
+                                <th>Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Operating Temperature</td>
+                                <td>-20°C - 50°C</td>
+                            </tr>
+                            <tr>
+                                <td>Relative Humidity</td>
+                                <td>10% - 90% (non-condensing)</td>
+                            </tr>
+                            <tr>
+                                <td>Protection Rating</td>
+                                <td>IP65</td>
+                            </tr>
+                            <tr>
+                                <td>Ventilation</td>
+                                <td>Forced + Air Conditioning</td>
+                            </tr>
+                            <tr>
+                                <td>Power Supply</td>
+                                <td>220V AC, 50Hz</td>
+                            </tr>
+                            <tr>
+                                <td>Brightness</td>
+                                <td>2500+ nits (direct sunlight visibility)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h3>Air Conditioning Module (FOR OUTDOOR EQUIPMENT)</h3>
+                
+                <div class="alert alert-info">
+                    <h4>Automatic Operation</h4>
+                    <p>The air conditioning system starts and stops automatically based on the internal temperature of the totem.</p>
+                </div>
+
+                <div class="ac-features">
+                    <div class="feature">
+                        <h4><i class="fas fa-thermometer-half"></i> Integrated Thermostat</h4>
+                        <p>Maintains optimal temperature for electronic components</p>
+                    </div>
+                    <div class="feature">
+                        <h4><i class="fas fa-snowflake"></i> Efficient Cooling</h4>
+                        <p>Protects against overheating on hot days</p>
+                    </div>
+                    <div class="feature">
+                        <h4><i class="fas fa-fire"></i> Heating</h4>
+                        <p>Ensures operation at low temperatures</p>
+                    </div>
+                </div>
+
+                <div class="alert alert-danger">
+                    <h4><i class="fas fa-exclamation-triangle"></i> WARNING</h4>
+                    <p><strong>ATTENTION! Do not start the air conditioning module without refrigerant in the system.</strong></p>
+                    <p>This can damage the compressor and void the warranty.</p>
+                </div>
+            </section>
+
+            <!-- Outdoor Operations -->
+            <section id="outdoor" class="content-section page-break">
+                <h2 class="section-title">OUTDOOR EQUIPMENT OPERATIONS</h2>
+                
+                <div class="alert alert-danger">
+                    <h4><i class="fas fa-exclamation-triangle"></i> WARNING</h4>
+                    <p><strong>Interventions on totemdigital.ro equipment must be performed only by personnel authorized in advance by Totem Digital Romania.</strong></p>
+                    <p>Failure to comply with this will automatically result in loss of equipment warranty. Subsequent repair can be performed by Totem Digital Romania personnel, for a fee, according to rates in effect at the time of intervention.</p>
+                </div>
+
+                <h3>Outdoor Equipment Installation</h3>
+                
+                <div class="installation-steps">
+                    <div class="step">
+                        <div class="step-header">
+                            <span class="step-num">1</span>
+                            <h4>Foundation Preparation</h4>
+                        </div>
+                        <div class="step-content">
+                            <p>For installing floor-mounted Outdoor equipment, it is necessary to prepare a perfectly flat concrete surface (if it will be mounted on a soft ground area).</p>
+                            <p><strong>Totem Digital Romania provides the dimensions for the concrete foundation, depending on the equipment.</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-header">
+                            <span class="step-num">2</span>
+                            <h4>Base Installation</h4>
+                        </div>
+                        <div class="step-content">
+                            <p>Usually, the base is separate from the rest of the equipment, being the first part of the whole to be mounted on the foundation.</p>
+                            <p>In the equipment box you will receive all screws necessary for fastening in the concrete foundation.</p>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-header">
+                            <span class="step-num">3</span>
+                            <h4>Cable Preparation</h4>
+                        </div>
+                        <div class="step-content">
+                            <p>Make sure you have pulled through the center of the foundation a tube to provide:</p>
+                            <ul>
+                                <li>220V voltage cable</li>
+                                <li>UTP cable for internet network</li>
+                                <li>Condensate drain outlet (for air conditioning equipment)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-header">
+                            <span class="step-num">4</span>
+                            <h4>Main Body Mounting</h4>
+                        </div>
+                        <div class="step-content">
+                            <p>After installing the equipment base, follow:</p>
+                            <ol>
+                                <li>Positioning its body on the base</li>
+                                <li>Attaching to the base with screws provided in the package</li>
+                                <li>Fastening is done through the interior of the equipment</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-header">
+                            <span class="step-num">5</span>
+                            <h4>Using Lifting Ears</h4>
+                        </div>
+                        <div class="step-content">
+                            <p>The equipment is provided with metal ears at the top, to be anchored using a lifting device, their weight being considerable.</p>
+                            <p><strong>After positioning and fixing on the base, the ears will be detached and kept for possible equipment relocation.</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-box">
+                    <h4><i class="fas fa-phone-alt"></i> Installation Assistance</h4>
+                    <p>For complex installations or if you encounter difficulties, contact our technical team:</p>
+                    <p><strong>Tel:</strong> +40 371 710 077</p>
+                    <p><strong>Email:</strong> sales@totemdigital.ro</p>
+                    <p><strong>Support Tickets:</strong> https://support.totemdigital.ro</p>
+                </div>
+            </section>
+
+            <!-- Warranty Service -->
+            <section id="warranty" class="content-section page-break">
+                <h2 class="section-title">WARRANTY SERVICE</h2>
+                
+                <div class="warranty-info">
+                    <h3>Warranty Conditions</h3>
+                    <p>All Totem Digital Romania equipment benefits from warranty according to the certificate received at purchase.</p>
+                    
+                    <h4>Warranty covers:</h4>
+                    <ul class="check-list">
+                        <li>Manufacturing defects</li>
+                        <li>Hardware problems occurring under normal use conditions</li>
+                        <li>Electronic component failures</li>
+                        <li>Software problems of pre-installed applications</li>
+                    </ul>
+
+                    <h4>Warranty does NOT cover:</h4>
+                    <ul class="x-list">
+                        <li>Mechanical damage caused by user</li>
+                        <li>Damage caused by external factors (storm, floods, etc.)</li>
+                        <li>Unauthorized modifications of equipment</li>
+                        <li>Interventions performed by unauthorized personnel</li>
+                        <li>Improper use or outside specifications</li>
+                        <li>Normal wear of components</li>
+                    </ul>
+                </div>
+
+                <div class="alert alert-warning">
+                    <h4><i class="fas fa-exclamation-triangle"></i> IMPORTANT</h4>
+                    <p>Any unauthorized intervention on the equipment leads to <strong>automatic loss of warranty</strong>.</p>
+                </div>
+
+                <h3>Service Procedure</h3>
+                <div class="service-procedure">
+                    <div class="procedure-step">
+                        <div class="proc-number">1</div>
+                        <div class="proc-content">
+                            <h4>Contact</h4>
+                            <p>Contact the service department at:</p>
+                            <p><strong>Tel:</strong> +40 371 710 077</p>
+                            <p><strong>Email:</strong> sales@totemdigital.ro</p>
+                        </div>
+                    </div>
+                    <div class="procedure-step">
+                        <div class="proc-number">2</div>
+                        <div class="proc-content">
+                            <h4>Problem Description</h4>
+                            <p>Describe in detail the problem encountered and provide information about the equipment (model, serial number).</p>
+                        </div>
+                    </div>
+                    <div class="procedure-step">
+                        <div class="proc-number">3</div>
+                        <div class="proc-content">
+                            <h4>Diagnosis</h4>
+                            <p>The technical team will diagnose the problem and determine if it falls under warranty.</p>
+                        </div>
+                    </div>
+                    <div class="procedure-step">
+                        <div class="proc-number">4</div>
+                        <div class="proc-content">
+                            <h4>Intervention</h4>
+                            <p>An on-site intervention will be scheduled or equipment pickup for service will be established.</p>
+                        </div>
+                    </div>
+                    <div class="procedure-step">
+                        <div class="proc-number">5</div>
+                        <div class="proc-content">
+                            <h4>Completion</h4>
+                            <p>After repair, you will receive a service report and the equipment will be tested.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-box">
+                    <h3>Service Contact</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon"><i class="fas fa-phone"></i></span>
+                            <div>
+                                <strong>Phone</strong>
+                                <p>+40 371 710 077</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+                            <div>
+                                <strong>Email</strong>
+                                <p>sales@totemdigital.ro</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon"><i class="fas fa-globe"></i></span>
+                            <div>
+                                <strong>Website</strong>
+                                <p>www.totemdigital.ro<br>www.info-kiosk.ro</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <h3>Totem Digital Romania</h3>
+                        <p>www.totemdigital.ro | www.info-kiosk.ro</p>
+                    </div>
+                    <div class="footer-info">
+                        <p>Document is property of Office Conect SRL</p>
+                        <p>Copying or reproducing this document is prohibited</p>
+                        <p>© <span id="footerCopyrightYear">2000-2025</span> Totem Digital Romania. All rights reserved.</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </main>
+
+    <!-- Back to top button -->
+    <button id="backToTop" class="back-to-top no-print" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="../script.js"></script>
+</body>
+</html>
