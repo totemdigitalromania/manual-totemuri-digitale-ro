@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Manual de utilizare Totem Digital Romania - Proceduri standard de operare">
+    <title>Manual de Utilizare - Totem Digital Romania</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="print.css" media="print">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header no-print">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Totem Digital Romania</h1>
+                    <p class="tagline">Manual de Utilizare v2.2</p>
+                </div>
+                <div class="header-actions">
+                    <button id="downloadBtn" class="btn btn-primary">
+                        <i class="fas fa-download"></i>
+                        Descarcă PDF
+                    </button>
+                    <button id="printBtn" class="btn btn-secondary">
+                        <i class="fas fa-print"></i>
+                        Printează
+                    </button>
+                    <button id="menuToggle" class="menu-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Sidebar -->
+    <nav id="sidebar" class="sidebar no-print">
+        <div class="sidebar-content">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Caută în manual...">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#prefata" class="nav-link">Prefață</a></li>
+                <li><a href="#catalog" class="nav-link">Catalog</a></li>
+                <li><a href="#siguranta" class="nav-link">Ghid de siguranță</a></li>
+                <li><a href="#componente" class="nav-link">Componente și accesorii</a></li>
+                <li><a href="#mediu" class="nav-link">Mediu</a></li>
+                <li><a href="#instalare" class="nav-link">Instalarea programelor</a></li>
+                <li><a href="#pornire" class="nav-link">Pornirea totemului</a></li>
+                <li><a href="#conexiuni" class="nav-link">Conexiuni</a></li>
+                <li><a href="#intretinere" class="nav-link">Întreținere</a></li>
+                <li><a href="#depanare" class="nav-link">Depanare</a></li>
+                <li><a href="#outdoor" class="nav-link">Echipamente Outdoor</a></li>
+                <li><a href="#garantie" class="nav-link">Intervenții în garanție</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Cover Page -->
+            <section class="cover-page page-break">
+                <div class="cover-content">
+                    <div class="cover-header">
+                        <div class="cover-logo-main">
+                            <i class="fas fa-book-open" style="font-size: 4rem; margin-bottom: 1rem;"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="cover-main">
+                        <h1 class="cover-title">MANUAL DE UTILIZARE</h1>
+                        <div class="cover-divider"></div>
+                        <h2 class="cover-subtitle">TOTEM DIGITAL</h2>
+                        <h3 class="cover-version">Versiunea 2.2 - 2025</h3>
+                    </div>
+                    
+                    <div class="cover-description-box">
+                        <p class="cover-description">
+                            <i class="fas fa-check-circle"></i> Proceduri standard de operare<br>
+                            <i class="fas fa-check-circle"></i> Instrucțiuni pas cu pas pentru instalare<br>
+                            <i class="fas fa-check-circle"></i> Ghid complet de utilizare și întreținere
+                        </p>
+                    </div>
+                    
+                    <div class="cover-contact">
+                        <h3><i class="fas fa-building"></i> TOTEM DIGITAL ROMANIA</h3>
+                        <div class="cover-contact-grid">
+                            <div><i class="fas fa-phone"></i> +40 371 710 077</div>
+                            <div><i class="fas fa-envelope"></i> sales@totemdigital.ro</div>
+                            <div><i class="fas fa-globe"></i> www.totemdigital.ro</div>
+                            <div><i class="fas fa-ticket-alt"></i> support.totemdigital.ro</div>
+                        </div>
+                    </div>
+                    
+                    <div class="cover-footer">
+                        <p><i class="fas fa-copyright"></i> <span id="copyrightYear">2000-2025</span> Totem Digital Romania. Toate drepturile rezervate.</p>
+                        <p>Document în proprietatea Office Conect SRL. Copierea sau reproducerea acestui document este interzisă.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Table of Contents -->
+            <section class="toc page-break" id="cuprins">
+                <h2 class="section-title">CUPRINS</h2>
+                <div class="toc-list">
+                    <div class="toc-item"><a href="#prefata">Prefață</a><span class="dots"></span><span class="page">4</span></div>
+                    <div class="toc-item"><a href="#catalog">Catalog</a><span class="dots"></span><span class="page">4</span></div>
+                    <div class="toc-item"><a href="#siguranta">Ghid de siguranță</a><span class="dots"></span><span class="page">4</span></div>
+                    <div class="toc-item"><a href="#componente">Componente și accesorii</a><span class="dots"></span><span class="page">7</span></div>
+                    <div class="toc-item"><a href="#mediu">Mediu</a><span class="dots"></span><span class="page">9</span></div>
+                    <div class="toc-item"><a href="#instalare">Instalarea programelor pe aparat</a><span class="dots"></span><span class="page">10</span></div>
+                    <div class="toc-item"><a href="#pornire">Pornirea totemului pentru prima dată</a><span class="dots"></span><span class="page">11</span></div>
+                    <div class="toc-item"><a href="#conexiuni">Conexiuni</a><span class="dots"></span><span class="page">12</span></div>
+                    <div class="toc-item"><a href="#intretinere">Întreținere</a><span class="dots"></span><span class="page">20</span></div>
+                    <div class="toc-item"><a href="#depanare">Depanare</a><span class="dots"></span><span class="page">23</span></div>
+                    <div class="toc-item"><a href="#outdoor">Operații specifice echipamentelor Outdoor</a><span class="dots"></span><span class="page">27</span></div>
+                    <div class="toc-item"><a href="#garantie">Intervenții în garanție</a><span class="dots"></span><span class="page">28</span></div>
+                </div>
+            </section>
+
+            <!-- Prefață -->
+            <section id="prefata" class="content-section">
+                <h2 class="section-title">PREFAȚĂ</h2>
+                <div class="highlight-box success">
+                    <h3>Felicitări!</h3>
+                    <p>Vă mulțumim pentru achiziționarea și utilizarea echipamentelor noastre de publicitate. Prin achiziția dvs., ați decis să alegeți un produs de înaltă calitate.</p>
+                </div>
+                
+                <p>Atunci când despachetați, verificați dacă toate componentele și accesoriile sunt prezente.</p>
+                
+                <div class="alert alert-warning">
+                    <strong>Important:</strong> Înainte de a asambla și de a porni totemul digital, citiți cu atenție acest manual și păstrați acest manual pentru utilizări viitoare.
+                </div>
+                
+                <p>Utilizați produsul numai așa cum este descris în prezentul manual.</p>
+                <p>În cazul unei transmiteri a produsului către o terță parte, înmânați de asemenea toate documentele, inclusive acest manual.</p>
+            </section>
+
+            <!-- Catalog -->
+            <section id="catalog" class="content-section">
+                <h2 class="section-title">CATALOG</h2>
+                <ul class="catalog-list">
+                    <li>Ghid de siguranță</li>
+                    <li>Componente și accesorii</li>
+                    <li>Mediu</li>
+                </ul>
+            </section>
+
+            <!-- Ghid de siguranță -->
+            <section id="siguranta" class="content-section page-break">
+                <h2 class="section-title">GHID DE SIGURANȚĂ</h2>
+                
+                <div class="alert alert-danger">
+                    <h3><i class="fas fa-exclamation-triangle"></i> AVERTISMENTE IMPORTANTE</h3>
+                    <ul>
+                        <li>În interiorul totemurilor digitale există o tensiune ridicată. Vă rugăm să nu deschideți capacul pentru a evita șocurile electrice.</li>
+                        <li>Întreținerea totemurilor digitale trebuie să fie făcută de personal tehnic avizat.</li>
+                        <li>Funcționarea incorectă poate duce la șocuri electrice sau incendii.</li>
+                    </ul>
+                </div>
+
+                <h3>Instrucțiuni generale de siguranță</h3>
+                <div class="safety-instructions">
+                    <div class="instruction-item">
+                        <span class="icon"><i class="fas fa-check"></i></span>
+                        <p>Înainte de a utiliza această unitate, vă rugăm să citiți și să înțelegeți mai întâi instrucțiunile de utilizare.</p>
+                    </div>
+                    <div class="instruction-item">
+                        <span class="icon"><i class="fas fa-check"></i></span>
+                        <p>Salvați în mod corespunzător acest manual de instrucțiuni pentru nevoile viitoare.</p>
+                    </div>
+                    <div class="instruction-item">
+                        <span class="icon"><i class="fas fa-check"></i></span>
+                        <p>Acordați atenție în special indicațiilor de siguranță și avertismentelor și respectați cu strictețe instrucțiunile de avertizare din manual.</p>
+                    </div>
+                    <div class="instruction-item">
+                        <span class="icon"><i class="fas fa-check"></i></span>
+                        <p>Nu folosiți accesoriile pe care fabricantul nu le recomandă, utilizarea necorespunzătoare poate duce la o defecțiune neașteptată a totemului.</p>
+                    </div>
+                    <div class="instruction-item">
+                        <span class="icon"><i class="fas fa-check"></i></span>
+                        <p>Folosiți totemul cu cablul de alimentare livrat. Verificați cerințele de alimentare, dacă sunt adecvate condițiilor locale.</p>
+                    </div>
+                    <div class="instruction-item">
+                        <span class="icon"><i class="fas fa-times"></i></span>
+                        <p>Nu folosiți niciun obiect care să apese sau să răsucească cablul de alimentare. Cablul deteriorat poate provoca șoc electric sau incendiu.</p>
+                    </div>
+                    <div class="instruction-item">
+                        <span class="icon"><i class="fas fa-times"></i></span>
+                        <p>Nu încercați să reparați totemul singur. Asigurați-vă că folosiți personal calificat pentru întreținerea aparatului.</p>
+                    </div>
+                    <div class="instruction-item">
+                        <span class="icon"><i class="fas fa-times"></i></span>
+                        <p>Nu atingeți componente care nu sunt menționate în manualul de utilizare.</p>
+                    </div>
+                </div>
+
+                <h3>Curățare și întreținere</h3>
+                <div class="alert alert-info">
+                    <p><strong>Înainte de a curăța aparatul:</strong></p>
+                    <ul>
+                        <li>Deconectați alimentarea</li>
+                        <li>Utilizați o cârpă umedă pentru a curăța aparatul</li>
+                        <li>Nu folosiți produse de curățat lichide sau aerosoli</li>
+                    </ul>
+                </div>
+
+                <p>Când unitatea nu va fi folosită pentru o perioadă mai lungă de timp, vă rugăm să deconectați alimentarea.</p>
+                <p>Asigurați-vă că există aerisire în încăpere iar fanta de aerisire a aparatului nu este blocată.</p>
+            </section>
+
+            <!-- Componente și accesorii -->
+            <section id="componente" class="content-section page-break">
+                <h2 class="section-title">COMPONENTE ȘI ACCESORII</h2>
+                
+                <p>Verificați conținutul pachetului la despachetare. Trebuie să conțină următoarele componente:</p>
+                
+                <div class="components-grid">
+                    <div class="component-card">
+                        <div class="component-icon"><i class="fas fa-desktop"></i></div>
+                        <h4>Unitate principală</h4>
+                        <p>Totem digital complet asamblat</p>
+                    </div>
+                    <div class="component-card">
+                        <div class="component-icon"><i class="fas fa-plug"></i></div>
+                        <h4>Cablu de alimentare</h4>
+                        <p>Cablu electric standard</p>
+                    </div>
+                    <div class="component-card">
+                        <div class="component-icon"><i class="fas fa-key"></i></div>
+                        <h4>Chei de blocare</h4>
+                        <p>Pentru siguranța fizică</p>
+                    </div>
+                    <div class="component-card">
+                        <div class="component-icon"><i class="fas fa-book"></i></div>
+                        <h4>Manual de utilizare</h4>
+                        <p>Documentație completă</p>
+                    </div>
+                    <div class="component-card">
+                        <div class="component-icon"><i class="fas fa-tools"></i></div>
+                        <h4>Kit de montaj</h4>
+                        <p>Șuruburi și accesorii</p>
+                    </div>
+                    <div class="component-card">
+                        <div class="component-icon"><i class="fas fa-certificate"></i></div>
+                        <h4>Certificat de garanție</h4>
+                        <p>Documente oficiale</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Mediu -->
+            <section id="mediu" class="content-section">
+                <h2 class="section-title">MEDIU</h2>
+                
+                <h3>Condiții de operare</h3>
+                <div class="table-responsive">
+                    <table class="specs-table">
+                        <thead>
+                            <tr>
+                                <th>Parametru</th>
+                                <th>Interior</th>
+                                <th>Exterior (Outdoor)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Temperatură operare</td>
+                                <td>0°C - 40°C</td>
+                                <td>-20°C - 50°C</td>
+                            </tr>
+                            <tr>
+                                <td>Umiditate</td>
+                                <td>20% - 80%</td>
+                                <td>10% - 90%</td>
+                            </tr>
+                            <tr>
+                                <td>Protecție</td>
+                                <td>IP20</td>
+                                <td>IP65</td>
+                            </tr>
+                            <tr>
+                                <td>Ventilație</td>
+                                <td>Naturală</td>
+                                <td>Forțată + A/C</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="alert alert-warning">
+                    <strong>Atenție la mediul de instalare:</strong>
+                    <ul>
+                        <li>Asigurați ventilație adecvată</li>
+                        <li>Evitați expunerea directă la soare (pentru modele interior)</li>
+                        <li>Nu instalați în locuri cu umiditate excesivă</li>
+                        <li>Păstrați distanță de surse de căldură</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Instalarea programelor -->
+            <section id="instalare" class="content-section page-break">
+                <h2 class="section-title">INSTALAREA PROGRAMELOR PE APARAT</h2>
+                
+                <h3>Sistemul de operare</h3>
+                <p>Totemul digital vine cu sistemul de operare preinstalat și configurat.</p>
+
+                <h3>Sisteme incluse</h3>
+                <div class="software-list">
+                    <div class="software-item">
+                        <div class="software-icon"><i class="fas fa-laptop"></i></div>
+                        <div class="software-details">
+                            <h4>Sistem de operare</h4>
+                            <p>Windows preinstalat și activat</p>
+                        </div>
+                    </div>
+                    <div class="software-item">
+                        <div class="software-icon"><i class="fas fa-lock"></i></div>
+                        <div class="software-details">
+                            <h4>SITEKIOSK ONLINE</h4>
+                            <p>Sistem de management și blocare software cu control online</p>
+                        </div>
+                    </div>
+                    <div class="software-item">
+                        <div class="software-icon"><i class="fas fa-map-marked-alt"></i></div>
+                        <div class="software-details">
+                            <h4>DIGIMAP by Totemdigital</h4>
+                            <p>Hartă interactivă personalizată</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Pornirea totemului -->
+            <section id="pornire" class="content-section">
+                <h2 class="section-title">PORNIREA TOTEMULUI PENTRU PRIMA DATĂ</h2>
+                
+                <div class="alert alert-danger">
+                    <h4>⚠️ AVERTISMENT</h4>
+                    <p>Înainte de prima pornire, verificați:</p>
+                    <ul>
+                        <li>Cablul de alimentare este corect conectat</li>
+                        <li>Tensiunea electrică corespunde specificațiilor (220V)</li>
+                        <li>Toate cablurile sunt bine fixate</li>
+                        <li>Nu există obiecte străine în interiorul totemului</li>
+                    </ul>
+                </div>
+
+                <h3>Pași pentru pornirea inițială</h3>
+                <ol class="steps-list">
+                    <li>
+                        <strong>Verificare vizuală</strong>
+                        <p>Inspectați totemul pentru eventuale deteriorări din transport</p>
+                    </li>
+                    <li>
+                        <strong>Conexiuni electrice</strong>
+                        <p>Conectați cablul de alimentare la priză</p>
+                    </li>
+                    <li>
+                        <strong>Pornire</strong>
+                        <p>Apăsați butonul de pornire de pe unitate</p>
+                    </li>
+                    <li>
+                        <strong>Încărcare sistem</strong>
+                        <p>Așteptați 2-3 minute pentru încărcarea completă a sistemului</p>
+                    </li>
+                    <li>
+                        <strong>Verificare funcționalitate</strong>
+                        <p>Testați ecranul tactil și funcțiile de bază</p>
+                    </li>
+                </ol>
+            </section>
+
+            <!-- Conexiuni -->
+            <section id="conexiuni" class="content-section page-break">
+                <h2 class="section-title">CONEXIUNI</h2>
+                
+                <h3>Conexiunea la o rețea cu fir (Ethernet)</h3>
+                <p>Pentru o conexiune stabilă și rapidă, recomandăm utilizarea unei conexiuni cu cablu Ethernet.</p>
+                
+                <div class="steps-box">
+                    <h4>Pași pentru conexiune Ethernet:</h4>
+                    <ol>
+                        <li>Localizați portul Ethernet pe partea din spate a totemului</li>
+                        <li>Conectați cablul UTP/Ethernet la port</li>
+                        <li>Conectați celălalt capăt la routerul/switch-ul rețelei</li>
+                        <li>Sistemul va detecta automat conexiunea</li>
+                        <li>Verificați statusul conexiunii în setările de rețea</li>
+                    </ol>
+                </div>
+
+                <div class="alert alert-warning">
+                    <h4><i class="fas fa-exclamation-triangle"></i> AVERTISMENT</h4>
+                    <p>Nu deconectați cablul de rețea în timp ce totemul este în funcțiune și procesează date importante.</p>
+                </div>
+
+                <h3>Conectarea la o rețea fără fir (Wi-Fi)</h3>
+                <p>Pentru instalări unde cablul Ethernet nu este disponibil, puteți utiliza conexiunea Wi-Fi.</p>
+                
+                <div class="steps-box">
+                    <h4>Pași pentru conexiune Wi-Fi:</h4>
+                    <ol>
+                        <li>Accesați setările de rețea din sistemul de operare</li>
+                        <li>Selectați "Wi-Fi" sau "Rețele wireless"</li>
+                        <li>Căutați rețeaua dorită din lista disponibilă</li>
+                        <li>Introduceți parola de acces</li>
+                        <li>Așteptați confirmarea conexiunii</li>
+                        <li>Testați conexiunea accesând internet</li>
+                    </ol>
+                </div>
+
+                <h3>Sfaturi pentru setarea rețelei</h3>
+                <div class="tips-grid">
+                    <div class="tip-card">
+                        <h4><i class="fas fa-shield-alt"></i> Securitate</h4>
+                        <ul>
+                            <li>Folosiți rețele cu parolă puternică</li>
+                            <li>Evitați rețelele publice nesecurizate</li>
+                            <li>Actualizați periodic parolele</li>
+                        </ul>
+                    </div>
+                    <div class="tip-card">
+                        <h4><i class="fas fa-bolt"></i> Performanță</h4>
+                        <ul>
+                            <li>Preferați conexiunea cu cablu</li>
+                            <li>Verificați puterea semnalului Wi-Fi</li>
+                            <li>Asigurați lățime de bandă suficientă</li>
+                        </ul>
+                    </div>
+                    <div class="tip-card">
+                        <h4><i class="fas fa-cog"></i> Configurare</h4>
+                        <ul>
+                            <li>Notați adresa IP a totemului</li>
+                            <li>Configurați IP static dacă este necesar</li>
+                            <li>Testați conectivitatea regulat</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3>Notă juridică</h3>
+                <div class="legal-note">
+                    <h4>NOTĂ IMPORTANTĂ PRIVIND SERVICIILE DE REȚEA</h4>
+                    <p>Serviciile de rețea sunt furnizate de terțe părți. Totem Digital Romania nu are control asupra conținutului sau disponibilității acestor servicii. Utilizarea serviciilor de rețea este responsabilitatea utilizatorului final.</p>
+                </div>
+            </section>
+
+            <!-- Întreținere -->
+            <section id="intretinere" class="content-section page-break">
+                <h2 class="section-title">ÎNTREȚINERE</h2>
+                
+                <h3>Sisteme de blocare</h3>
+                
+                <h4>1. Blocare fizică</h4>
+                <p>Blocarea totemului se face cu cheile primite în pachet.</p>
+                <ul>
+                    <li>Utilizați cheia pentru a deschide/închide panoul de acces</li>
+                    <li>Păstrați cheile într-un loc sigur</li>
+                    <li>Nu lăsați totemul deschis nesupravegheat</li>
+                </ul>
+
+                <h4>2. Blocare software</h4>
+                <p>Blocarea software se face cu ajutorul programului SITEKIOSK ONLINE.</p>
+                <ul>
+                    <li>Accesați panoul de administrare SITEKIOSK</li>
+                    <li>Configurați restricțiile dorite</li>
+                    <li>Salvați și aplicați setările</li>
+                </ul>
+
+                <h3>Curățarea totemului</h3>
+                
+                <div class="alert alert-danger">
+                    <h4>⚠️ AVERTISMENT</h4>
+                    <p>Înainte de curățare, deconectați întotdeauna alimentarea electrică!</p>
+                </div>
+
+                <h4>Ecranul și cadrul</h4>
+                <div class="cleaning-instructions">
+                    <div class="cleaning-item">
+                        <span class="step-number">1</span>
+                        <div class="step-content">
+                            <h5>Pregătire</h5>
+                            <p>Opriți și deconectați totemul de la alimentare. Așteptați să se răcească complet.</p>
+                        </div>
+                    </div>
+                    <div class="cleaning-item">
+                        <span class="step-number">2</span>
+                        <div class="step-content">
+                            <h5>Curățare ecran</h5>
+                            <p>Utilizați o cârpă moale din microfibră, ușor umezită cu apă. Nu pulverizați direct pe ecran.</p>
+                        </div>
+                    </div>
+                    <div class="cleaning-item">
+                        <span class="step-number">3</span>
+                        <div class="step-content">
+                            <h5>Cadrul</h5>
+                            <p>Ștergeți cadrul cu o cârpă umedă. Pentru pete persistente, folosiți detergent neutru diluat.</p>
+                        </div>
+                    </div>
+                    <div class="cleaning-item">
+                        <span class="step-number">4</span>
+                        <div class="step-content">
+                            <h5>Uscare</h5>
+                            <p>Ștergeți cu o cârpă uscată și lăsați să se usuce complet înainte de repornire.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="alert alert-warning">
+                    <strong>Nu folosiți:</strong>
+                    <ul>
+                        <li>Produse de curățat abrazive</li>
+                        <li>Aerosoli sau solventi</li>
+                        <li>Materiale aspre care pot zgâria</li>
+                        <li>Apă în exces care poate pătrunde în dispozitiv</li>
+                    </ul>
+                </div>
+
+                <h4>Carcasa și suportul</h4>
+                <ul>
+                    <li>Curățați cu o cârpă umedă</li>
+                    <li>Verificați periodic șuruburile de fixare</li>
+                    <li>Îndepărtați praful din zonele de ventilație</li>
+                </ul>
+
+                <h4>Cablul de alimentare</h4>
+                <ul>
+                    <li>Inspectați vizual pentru deteriorări</li>
+                    <li>Nu îndoiți sau trageți excesiv</li>
+                    <li>Înlocuiți imediat dacă este deteriorat</li>
+                </ul>
+
+                <h3>Evitarea efectului "Image burn" sau "Burn-in"</h3>
+                <p>Pentru a preveni deteriorarea ecranului prin afișarea prelungită a acelorași imagini:</p>
+                <ul>
+                    <li>Utilizați screen saver după perioade de inactivitate</li>
+                    <li>Variați conținutul afișat</li>
+                    <li>Evitați afișarea imaginilor statice pentru perioade lungi</li>
+                    <li>Utilizați setările de economisire a ecranului din SITEKIOSK ONLINE</li>
+                </ul>
+            </section>
+
+            <!-- Depanare -->
+            <section id="depanare" class="content-section page-break">
+                <h2 class="section-title">DEPANARE</h2>
+                
+                <h3>General</h3>
+                
+                <div class="troubleshooting-item">
+                    <h4><i class="fas fa-times-circle"></i> Totemul nu poate fi pornit</h4>
+                    <div class="solution">
+                        <strong>Soluții:</strong>
+                        <ul>
+                            <li>Verificați dacă este conectat la priză și priza funcționează</li>
+                            <li>Verificați întrerupătorul de pe cablul de alimentare</li>
+                            <li>Asigurați-vă că butonul de pornire este apăsat complet</li>
+                            <li>Contactați serviciul tehnic dacă problema persistă</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="troubleshooting-item">
+                    <h4><i class="fas fa-times-circle"></i> Nu se afișează nicio imagine și nu se produce niciun sunet</h4>
+                    <div class="solution">
+                        <strong>Soluții:</strong>
+                        <ul>
+                            <li>Verificați conexiunile video interne</li>
+                            <li>Asigurați-vă că ecranul este pornit</li>
+                            <li>Verificați setările de intrare video</li>
+                            <li>Restartați sistemul</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="troubleshooting-item">
+                    <h4><i class="fas fa-exclamation-circle"></i> Imaginile apar încet când pornește totemul</h4>
+                    <div class="solution">
+                        <strong>Explicație:</strong>
+                        <p>Acesta este un comportament normal la pornire. Sistemul are nevoie de timp pentru a încărca toate componentele.</p>
+                    </div>
+                </div>
+
+                <div class="troubleshooting-item">
+                    <h4><i class="fas fa-times-circle"></i> Nu se pot conecta dispozitive externe</h4>
+                    <div class="solution">
+                        <strong>Soluții:</strong>
+                        <ul>
+                            <li>Verificați dacă dispozitivul este compatibil</li>
+                            <li>Încercați un alt port USB</li>
+                            <li>Restartați totemul cu dispozitivul conectat</li>
+                            <li>Verificați driverele în sistemul de operare</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="troubleshooting-item">
+                    <h4><i class="fas fa-times-circle"></i> Totemul se oprește dintr-o dată</h4>
+                    <div class="solution">
+                        <strong>Cauze posibile:</strong>
+                        <ul>
+                            <li>Supraîncălzire - verificați ventilatoarele</li>
+                            <li>Probleme de alimentare - verificați conexiunile</li>
+                            <li>Setări de economisire energie - verificați configurația</li>
+                            <li>Probleme hardware - contactați service-ul</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3>Audio</h3>
+                
+                <div class="troubleshooting-item">
+                    <h4><i class="fas fa-volume-mute"></i> Nu se produce niciun sunet în timp ce rulează</h4>
+                    <div class="solution">
+                        <strong>Soluții:</strong>
+                        <ul>
+                            <li>Verificați volumul din sistem</li>
+                            <li>Asigurați-vă că sunetul nu este pe mute</li>
+                            <li>Verificați conexiunile difuzoarelor</li>
+                            <li>Testați cu alt fișier audio</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="troubleshooting-item">
+                    <h4><i class="fas fa-volume-up"></i> Nu există ieșire la unul dintre difuzoare</h4>
+                    <div class="solution">
+                        <strong>Soluții:</strong>
+                        <ul>
+                            <li>Verificați balanța audio (stânga/dreapta)</li>
+                            <li>Testați cu conținut stereo</li>
+                            <li>Verificați conexiunile difuzoarelor</li>
+                            <li>Contactați service-ul pentru verificare hardware</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3>Video</h3>
+                
+                <div class="troubleshooting-item">
+                    <h4><i class="fas fa-tv"></i> Apar bare orizontale sau verticale ori imaginile se estompează</h4>
+                    <div class="solution">
+                        <strong>Soluții:</strong>
+                        <ul>
+                            <li>Verificați cablurile video</li>
+                            <li>Ajustați rezoluția și rata de refresh</li>
+                            <li>Eliminați surse de interferență electromagnetică</li>
+                            <li>Contactați service-ul dacă problema persistă</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="troubleshooting-item">
+                    <h4><i class="fas fa-ghost"></i> Apar imagini remanente (fantome) când se oprește produsul</h4>
+                    <div class="solution">
+                        <strong>Explicație:</strong>
+                        <p>Poate fi un efect temporar normal. Dacă persistă, ar putea indica burn-in. Utilizați imagini variate și activați screen saver-ul.</p>
+                    </div>
+                </div>
+
+                <div class="troubleshooting-item">
+                    <h4><i class="fas fa-moon"></i> Alimentarea este pornită, dar ecranul pare extrem de întunecat</h4>
+                    <div class="solution">
+                        <strong>Soluții:</strong>
+                        <ul>
+                            <li>Ajustați luminozitatea ecranului</li>
+                            <li>Verificați setările de economisire energie</li>
+                            <li>Verificați dacă backlight-ul funcționează</li>
+                            <li>Contactați service-ul pentru diagnosticare</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="troubleshooting-item">
+                    <h4>⚠️ Pe ecran apare "Fără semnal"</h4>
+                    <div class="solution">
+                        <strong>Soluții:</strong>
+                        <ul>
+                            <li>Verificați conexiunea între PC și ecran</li>
+                            <li>Asigurați-vă că PC-ul este pornit</li>
+                            <li>Verificați sursa de intrare selectată</li>
+                            <li>Reconectați cablurile video</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Parametrii generali -->
+            <section id="parametrii" class="content-section">
+                <h2 class="section-title">PARAMETRII GENERALI</h2>
+                
+                <h3>Echipamente pentru interior</h3>
+                <div class="table-responsive">
+                    <table class="specs-table">
+                        <thead>
+                            <tr>
+                                <th>Specificație</th>
+                                <th>Valoare</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Temperatură operare</td>
+                                <td>0°C - 40°C</td>
+                            </tr>
+                            <tr>
+                                <td>Umiditate relativă</td>
+                                <td>20% - 80% (fără condensare)</td>
+                            </tr>
+                            <tr>
+                                <td>Grad de protecție</td>
+                                <td>IP20</td>
+                            </tr>
+                            <tr>
+                                <td>Ventilație</td>
+                                <td>Naturală / Forțată</td>
+                            </tr>
+                            <tr>
+                                <td>Alimentare</td>
+                                <td>220V AC, 50Hz</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h3>Echipamente pentru exterior (Outdoor)</h3>
+                <div class="table-responsive">
+                    <table class="specs-table">
+                        <thead>
+                            <tr>
+                                <th>Specificație</th>
+                                <th>Valoare</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Temperatură operare</td>
+                                <td>-20°C - 50°C</td>
+                            </tr>
+                            <tr>
+                                <td>Umiditate relativă</td>
+                                <td>10% - 90% (fără condensare)</td>
+                            </tr>
+                            <tr>
+                                <td>Grad de protecție</td>
+                                <td>IP65</td>
+                            </tr>
+                            <tr>
+                                <td>Ventilație</td>
+                                <td>Forțată + Aer condiționat</td>
+                            </tr>
+                            <tr>
+                                <td>Alimentare</td>
+                                <td>220V AC, 50Hz</td>
+                            </tr>
+                            <tr>
+                                <td>Luminozitate</td>
+                                <td>2500+ nits (vizibilitate directă la soare)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h3>Modul Aer condiționat (PENTRU ECHIPAMENTELE OUTDOOR)</h3>
+                
+                <div class="alert alert-info">
+                    <h4>Funcționare automată</h4>
+                    <p>Sistemul de aer condiționat pornește și se oprește automat în funcție de temperatura interioară a totemului.</p>
+                </div>
+
+                <div class="ac-features">
+                    <div class="feature">
+                        <h4><i class="fas fa-thermometer-half"></i> Termostat integrat</h4>
+                        <p>Menține temperatura optimă pentru componentele electronice</p>
+                    </div>
+                    <div class="feature">
+                        <h4><i class="fas fa-snowflake"></i> Răcire eficientă</h4>
+                        <p>Protejează împotriva supraîncălzirii în zilele caniculare</p>
+                    </div>
+                    <div class="feature">
+                        <h4><i class="fas fa-fire"></i> Încălzire</h4>
+                        <p>Asigură funcționarea la temperaturi scăzute</p>
+                    </div>
+                </div>
+
+                <div class="alert alert-danger">
+                    <h4>⚠️ AVERTISMENT</h4>
+                    <p><strong>ATENȚIE! Nu porniți modulul de aer condiționat fără freon în instalație.</strong></p>
+                    <p>Acest lucru poate deteriora compresorul și anula garanția.</p>
+                </div>
+            </section>
+
+            <!-- Operații specifice Outdoor -->
+            <section id="outdoor" class="content-section page-break">
+                <h2 class="section-title">OPERAȚII SPECIFICE ECHIPAMENTELOR OUTDOOR</h2>
+                
+                <div class="alert alert-danger">
+                    <h4>⚠️ AVERTISMENT</h4>
+                    <p><strong>Intervențiile asupra echipamentelor totemdigital.ro trebuie efectuate doar de către personal autorizat în prealabil de Totem Digital Romania.</strong></p>
+                    <p>Nerespectarea acestui lucru duce automat la pierderea garanției aparatului. Reparația ulterioară poate fi efectuată de către personalul Totem Digital Romania, contra cost, conform tarifelor în vigoare.</p>
+                </div>
+
+                <h3>Instalare echipamente Outdoor</h3>
+                
+                <div class="installation-steps">
+                    <div class="step">
+                        <div class="step-header">
+                            <span class="step-num">1</span>
+                            <h4>Pregătirea fundației</h4>
+                        </div>
+                        <div class="step-content">
+                            <p>Pentru instalarea echipamentelor Outdoor cu așezare pe podea, este necesar să pregătiți o suprafață din beton perfect plană (dacă acesta va urma să fie montat pe o zonă de teren moale).</p>
+                            <p><strong>Totem Digital Romania vă oferă cotele pentru fundația de beton, în funcție de echipament.</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-header">
+                            <span class="step-num">2</span>
+                            <h4>Instalarea tălpii</h4>
+                        </div>
+                        <div class="step-content">
+                            <p>De obicei, talpa este separată de restul echipamentului, aceasta fiind prima parte din întreg, care se va monta pe fundație.</p>
+                            <p>În cutia echipamentului veți primi toate șuruburile necesare prinderii în fundația de beton.</p>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-header">
+                            <span class="step-num">3</span>
+                            <h4>Pregătirea cablajelor</h4>
+                        </div>
+                        <div class="step-content">
+                            <p>Asigurați-vă că ați tras prin centrul fundației un tub, prin care să asigurați:</p>
+                            <ul>
+                                <li>Cablu de tensiune 220V</li>
+                                <li>Cablu UTP pentru rețea de internet</li>
+                                <li>Gură de scurgere pentru condens (pentru echipamente cu aer condiționat)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-header">
+                            <span class="step-num">4</span>
+                            <h4>Montarea corpului principal</h4>
+                        </div>
+                        <div class="step-content">
+                            <p>După ce ați instalat talpa echipamentului, urmează:</p>
+                            <ol>
+                                <li>Poziționarea corpului acestuia pe talpă</li>
+                                <li>Atașarea de talpă cu șuruburile oferite în pachet</li>
+                                <li>Fixarea se face prin interiorul echipamentului</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-header">
+                            <span class="step-num">5</span>
+                            <h4>Utilizarea urechilor de ridicare</h4>
+                        </div>
+                        <div class="step-content">
+                            <p>Echipamentele sunt prevăzute cu urechi metalice la partea superioară, pentru a putea fi ancorate cu ajutorul unui utilaj de ridicare, greutatea acestora fiind considerabilă.</p>
+                            <p><strong>După poziționarea și fixarea pe talpă, urechile se vor detașa și vor fi păstrate pentru o eventuală mutare a echipamentului.</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-box">
+                    <h4><i class="fas fa-phone-alt"></i> Asistență instalare</h4>
+                    <p>Pentru instalări complexe sau dacă întâmpinați dificultăți, contactați echipa noastră tehnică:</p>
+                    <p><strong>Tel:</strong> +40 371 710 077</p>
+                    <p><strong>Email:</strong> sales@totemdigital.ro</p>
+                    <p><strong>Tickete Support:</strong> https://support.totemdigital.ro</p>
+                </div>
+            </section>
+
+            <!-- Intervenții în garanție -->
+            <section id="garantie" class="content-section page-break">
+                <h2 class="section-title">INTERVENȚII ÎN GARANȚIE</h2>
+                
+                <div class="warranty-info">
+                    <h3>Condiții de garanție</h3>
+                    <p>Toate echipamentele Totem Digital Romania beneficiază de garanție conform certificatului primit la achiziție.</p>
+                    
+                    <h4>Garanția acoperă:</h4>
+                    <ul class="check-list">
+                        <li>Defecțiuni de fabricație</li>
+                        <li>Probleme hardware apărute în condiții normale de utilizare</li>
+                        <li>Defecțiuni ale componentelor electronice</li>
+                        <li>Probleme software ale aplicațiilor preinstalate</li>
+                    </ul>
+
+                    <h4>Garanția NU acoperă:</h4>
+                    <ul class="x-list">
+                        <li>Deteriorări mecanice cauzate de utilizator</li>
+                        <li>Daune cauzate de factori externi (furtună, inundații, etc.)</li>
+                        <li>Modificări neautorizate ale echipamentului</li>
+                        <li>Intervenții efectuate de personal neautorizat</li>
+                        <li>Utilizare necorespunzătoare sau în afara specificațiilor</li>
+                        <li>Uzură normală a componentelor</li>
+                    </ul>
+                </div>
+
+                <div class="alert alert-warning">
+                    <h4>⚠️ IMPORTANT</h4>
+                    <p>Orice intervenție neautorizată asupra echipamentului duce la <strong>pierderea automată a garanției</strong>.</p>
+                </div>
+
+                <h3>Procedura de service</h3>
+                <div class="service-procedure">
+                    <div class="procedure-step">
+                        <div class="proc-number">1</div>
+                        <div class="proc-content">
+                            <h4>Contactare</h4>
+                            <p>Contactați departamentul de service la:</p>
+                            <p><strong>Tel:</strong> +40 371 710 077</p>
+                            <p><strong>Email:</strong> sales@totemdigital.ro</p>
+                        </div>
+                    </div>
+                    <div class="procedure-step">
+                        <div class="proc-number">2</div>
+                        <div class="proc-content">
+                            <h4>Descriere problemă</h4>
+                            <p>Descrieți detaliat problema întâmpinată și furnizați informații despre echipament (model, serie).</p>
+                        </div>
+                    </div>
+                    <div class="procedure-step">
+                        <div class="proc-number">3</div>
+                        <div class="proc-content">
+                            <h4>Diagnosticare</h4>
+                            <p>Echipa tehnică va diagnostica problema și va stabili dacă intră sub garanție.</p>
+                        </div>
+                    </div>
+                    <div class="procedure-step">
+                        <div class="proc-number">4</div>
+                        <div class="proc-content">
+                            <h4>Intervenție</h4>
+                            <p>Se va programa o intervenție la locație sau se va stabili ridicarea echipamentului pentru service.</p>
+                        </div>
+                    </div>
+                    <div class="procedure-step">
+                        <div class="proc-number">5</div>
+                        <div class="proc-content">
+                            <h4>Finalizare</h4>
+                            <p>După reparație, veți primi un raport de service și echipamentul va fi testat.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-box">
+                    <h3>Contact Service</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon"><i class="fas fa-phone"></i></span>
+                            <div>
+                                <strong>Telefon</strong>
+                                <p>+40 371 710 077</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+                            <div>
+                                <strong>Email</strong>
+                                <p>sales@totemdigital.ro</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon"><i class="fas fa-globe"></i></span>
+                            <div>
+                                <strong>Website</strong>
+                                <p>www.totemdigital.ro<br>www.info-kiosk.ro</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <h3>Totem Digital Romania</h3>
+                        <p>www.totemdigital.ro | www.info-kiosk.ro</p>
+                    </div>
+                    <div class="footer-info">
+                        <p>Document în proprietatea Office Conect SRL</p>
+                        <p>Copierea sau reproducerea acestui document este interzisă</p>
+                        <p>© <span id="footerCopyrightYear">2000-2025</span> Totem Digital Romania. Toate drepturile rezervate.</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </main>
+
+    <!-- Back to top button -->
+    <button id="backToTop" class="back-to-top no-print" aria-label="Înapoi sus">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

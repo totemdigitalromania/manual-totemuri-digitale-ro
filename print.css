@@ -1,0 +1,369 @@
+/* ===================================
+   PRINT STYLES FOR A4 FORMAT
+   =================================== */
+
+@media print {
+    /* Reset page margins and setup A4 */
+    @page {
+        size: A4 portrait;
+        margin: 2cm 1.5cm;
+    }
+    
+    /* Hide non-printable elements */
+    .no-print,
+    .header,
+    .sidebar,
+    .back-to-top,
+    .search-box,
+    .header-actions,
+    .menu-toggle {
+        display: none !important;
+    }
+    
+    /* Reset layout for print */
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background: white;
+        color: black;
+        font-size: 11pt;
+        line-height: 1.5;
+    }
+    
+    .main-content {
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+    }
+    
+    .container {
+        max-width: 100%;
+        padding: 0;
+    }
+    
+    /* Typography adjustments */
+    h1 { 
+        font-size: 24pt; 
+        page-break-after: avoid;
+    }
+    
+    h2 { 
+        font-size: 20pt; 
+        page-break-after: avoid;
+        margin-top: 20pt;
+    }
+    
+    h3 { 
+        font-size: 16pt; 
+        page-break-after: avoid;
+        margin-top: 16pt;
+    }
+    
+    h4 { 
+        font-size: 14pt; 
+        page-break-after: avoid;
+        margin-top: 12pt;
+    }
+    
+    h5, h6 { 
+        font-size: 12pt; 
+        page-break-after: avoid;
+    }
+    
+    p, li {
+        orphans: 3;
+        widows: 3;
+        font-size: 11pt;
+    }
+    
+    /* Links */
+    a {
+        color: #000;
+        text-decoration: underline;
+    }
+    
+    a[href^="http"]:after {
+        content: " (" attr(href) ")";
+        font-size: 9pt;
+        color: #666;
+    }
+    
+    /* Sections */
+    .content-section {
+        padding: 0;
+        margin-bottom: 20pt;
+        background: white !important;
+        box-shadow: none;
+        border-radius: 0;
+        page-break-inside: avoid;
+    }
+    
+    .section-title {
+        color: #000;
+        border-bottom: 2pt solid #000;
+        padding-bottom: 8pt;
+        margin-bottom: 16pt;
+    }
+    
+    /* Page breaks */
+    .page-break {
+        page-break-before: always;
+    }
+    
+    .cover-page {
+        page-break-after: always;
+        min-height: 100vh;
+        margin: -2cm -1.5cm 0 -1.5cm;
+        padding: 3cm 2cm;
+        background: #222f4c;
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+    }
+    
+    .toc {
+        page-break-after: always;
+    }
+    
+    /* Tables */
+    table {
+        page-break-inside: avoid;
+        width: 100%;
+        border-collapse: collapse;
+    }
+    
+    .specs-table {
+        box-shadow: none;
+        border: 1pt solid #000;
+    }
+    
+    .specs-table th {
+        background: #f0f0f0 !important;
+        color: #000 !important;
+        border: 1pt solid #000;
+        padding: 8pt;
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+    }
+    
+    .specs-table td {
+        border: 1pt solid #000;
+        padding: 8pt;
+    }
+    
+    .specs-table tbody tr:hover {
+        background: transparent !important;
+    }
+    
+    /* Alert boxes */
+    .alert,
+    .highlight-box {
+        page-break-inside: avoid;
+        border: 2pt solid #000;
+        padding: 12pt;
+        margin: 12pt 0;
+        background: white !important;
+    }
+    
+    .alert-danger {
+        border-color: #222f4c;
+        background: #ffffff !important;
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+    }
+    
+    .alert-warning {
+        border-color: #222f4c;
+        background: #ffffff !important;
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+    }
+    
+    .alert-info {
+        border-color: #222f4c;
+        background: #ffffff !important;
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+    }
+    
+    /* Cards and boxes */
+    .component-card,
+    .tip-card,
+    .software-item,
+    .instruction-item,
+    .cleaning-item,
+    .troubleshooting-item,
+    .procedure-step,
+    .step,
+    .feature {
+        page-break-inside: avoid;
+        border: 1pt solid #ccc;
+        padding: 10pt;
+        margin-bottom: 10pt;
+        background: white !important;
+        box-shadow: none;
+    }
+    
+    .components-grid,
+    .tips-grid,
+    .ac-features,
+    .contact-details {
+        display: block;
+    }
+    
+    .components-grid > *,
+    .tips-grid > *,
+    .ac-features > * {
+        margin-bottom: 10pt;
+    }
+    
+    /* Steps */
+    .steps-list li {
+        page-break-inside: avoid;
+        margin-bottom: 16pt;
+    }
+    
+    .steps-list li::before {
+        background: #222f4c !important;
+        color: white !important;
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+    }
+    
+    .step-number,
+    .proc-number {
+        background: #222f4c !important;
+        color: white !important;
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+    }
+    
+    .step-header {
+        background: #222f4c !important;
+        color: white !important;
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+        padding: 10pt;
+    }
+    
+    .step-header h4 {
+        color: white !important;
+        margin: 0;
+    }
+    
+    .step-num {
+        background: rgba(255, 255, 255, 0.3) !important;
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+    }
+    
+    /* Icons - convert emojis to text for better print compatibility */
+    .component-icon,
+    .software-icon,
+    .contact-icon {
+        font-size: 14pt;
+    }
+    
+    /* Lists */
+    .check-list li::before {
+        content: "✓";
+        color: #000;
+        font-weight: bold;
+    }
+    
+    .x-list li::before {
+        content: "✗";
+        color: #000;
+        font-weight: bold;
+    }
+    
+    /* Contact box */
+    .contact-box {
+        page-break-inside: avoid;
+        border: 1pt solid #222f4c;
+        padding: 12pt;
+        background: white !important;
+    }
+    
+    .contact-item {
+        border: 1pt solid #ccc;
+        padding: 10pt;
+        margin-bottom: 8pt;
+        background: white !important;
+        box-shadow: none;
+    }
+    
+    /* Info box */
+    .info-box {
+        page-break-inside: avoid;
+        border: 2pt solid #222f4c;
+        padding: 12pt;
+        background: #222f4c !important;
+        color: white !important;
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+    }
+    
+    /* Footer */
+    .footer {
+        page-break-before: always;
+        background: #222f4c !important;
+        color: white !important;
+        padding: 20pt;
+        margin-top: 20pt;
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+    }
+    
+    .footer-logo h3,
+    .footer-logo p,
+    .footer-info p {
+        color: white !important;
+    }
+    
+    /* Images */
+    img {
+        max-width: 100%;
+        page-break-inside: avoid;
+    }
+    
+    /* TOC */
+    .toc-item {
+        page-break-inside: avoid;
+        margin-bottom: 8pt;
+    }
+    
+    .dots {
+        border-bottom: 1pt dotted #222f4c;
+    }
+    
+    /* Warranty section */
+    .warranty-info {
+        page-break-inside: avoid;
+    }
+    
+    /* Service procedure */
+    .service-procedure {
+        display: block;
+    }
+    
+    /* Remove hover effects */
+    *:hover {
+        transform: none !important;
+        box-shadow: none !important;
+    }
+    
+    /* Ensure backgrounds print */
+    * {
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+    }
+    
+    /* Page numbering */
+    @page {
+        @bottom-right {
+            content: counter(page) " / " counter(pages);
+        }
+    }
+}
